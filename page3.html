@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вопрос №3</title>
+    <link href="style.css?0.4" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">Алгебраические функции</div>
+    </div>
+    <div class="layout">
+        <div class="sidebar">
+            <a href="index.html">Теория</a><br>
+            <a href="page1.html">Задачи</a><br>
+        </div>
+        <div class="content">
+            <form action="/cgi-bin/vote.py" method="post">
+            <p><i>Какой функции пренадлежит этот график?</i></p>
+            <p><i><img src="images/graph3.jpg"></i></p>
+                <ul>
+                    <li><input type="radio" name="answer" value="1">
+                        y = k/x</li>
+                    <li><input type="radio" name="answer" value="2">
+                        y = x<sup>2</sup></li>
+                    <li><input type="radio" name="answer" value="3">
+                        y = ax<sup>2</sup> + bx + c</li>
+                    <li><input type="radio" name="answer" value="4">
+                        y = sinx</li>
+                </ul>
+            <input type="hidden" name="ques" value="3">
+            <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2018 — SadCat Production
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.header, .sidebar, .content, .footer {
+    padding: 10px; /* Поля */
+    border: solid 1px #000; /* Параметры рамки */
+    background: #e3e8cc; /* Цвет фона */
+ }
+
+.header, .footer { /* Верхняя часть с заголовком */
+    color: #fff;
+    background: #4b4a45; /* Цвет фона */
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px; /* Размер шрифта */
+}
+
+.layout {
+    margin: 15px 0; /* Отступы сверху и снизу */
+    overflow: hidden; /* Отменяем действие float */
+    width:100%;
+}
+
+.sidebar { /* Навигация по сайту */
+    width: 18%; /* Ширина меню */
+    float: right; /* Состыковка с другим слоем по горизонтали */
+}
+
+.content { /* Основное содержание страницы */
+    margin-right: 21%; /* Отступ слева */
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+th {
+    font-weight: normal;
+    color: #fff;
+    background-color: #777;
+}
+
+td {
+    background-color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
